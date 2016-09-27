@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="yin.openeye.VideoActivity">
+
+    <fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="#47747474"
+            android:scaleType="centerCrop"/>
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="灵魂狙击手"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textname"
+                android:layout_below="@+id/title"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#搞笑"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/texttime"
+                android:layout_toRightOf="@+id/textname"
+                android:layout_below="@+id/title"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/ 02'55''"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_action_open_detail_more"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/layout1"
+            android:text="一反常规的冷酷形象,为你剖析杀手内心对于失手的恐惧.带着他的宜家 style 自制来福枪,和[上辈子救过国家]的运气,开始了一次秘密暗杀行动.意外错杀目标后究竟如何让应对?结局出人意料!From CollegeHumor"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="20dp">
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:src="@drawable/ic_action_favorites_without_padding"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/img1"
+                    android:id="@+id/text1"
+                    android:text="326"
+                    android:layout_centerInParent="true"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp">
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:src="@drawable/ic_action_share_without_padding"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/img2"
+                    android:id="@+id/text2"
+                    android:text="494"
+                    android:layout_centerVertical="true"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp">
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:src="@drawable/ic_action_reply_nopadding"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/img3"
+                    android:id="@+id/text3"
+                    android:text="14"
+                    android:layout_centerVertical="true"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp">
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:src="@drawable/action_download_cut"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/img4"
+                    android:id="@+id/text4"
+                    android:text="缓存"
+                    android:layout_centerVertical="true"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
